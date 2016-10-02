@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 20-nov-2013 12:23:54 by Hibernate Tools 3.2.1.GA -->
+<hibernate-mapping>
+  <class catalog="facultad" name="jcode.hibernate.modelo.Matricula1" table="matricula">
+    <composite-id class="jcode.hibernate.modelo.MatriculaId" name="id">
+      <key-property name="idMatricula" type="int">
+        <column name="idMatricula"/>
+      </key-property>
+      <key-property name="idAlumno" type="string">
+        <column name="idAlumno"/>
+      </key-property>
+      <key-property name="idAsignatura" type="int">
+        <column name="idAsignatura"/>
+      </key-property>
+    </composite-id>
+    <property name="nota" type="string">
+      <column name="nota"/>
+    </property>
+  </class>
+</hibernate-mapping>

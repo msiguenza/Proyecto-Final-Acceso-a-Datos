@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 20-nov-2013 12:23:54 by Hibernate Tools 3.2.1.GA -->
+<hibernate-mapping>
+  <class catalog="facultad" name="jcode.hibernate.modelo.Profesor1" table="profesor">
+    <id name="idProfesor" type="java.lang.Long">
+      <column name="idProfesor"/>
+      <generator class="identity"/>
+    </id>
+    <property name="idSupervisor" type="long">
+      <column name="idSupervisor" not-null="true"/>
+    </property>
+    <property name="apellidos" type="string">
+      <column name="apellidos"/>
+    </property>
+    <property name="dni" type="string">
+      <column name="dni"/>
+    </property>
+    <property name="domicilio" type="string">
+      <column name="domicilio"/>
+    </property>
+    <property name="nombre" type="string">
+      <column name="nombre"/>
+    </property>
+    <property name="telefono" type="string">
+      <column name="telefono"/>
+    </property>
+  </class>
+</hibernate-mapping>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 20-nov-2013 12:23:54 by Hibernate Tools 3.2.1.GA -->
+<hibernate-mapping>
+  <class catalog="facultad" name="jcode.hibernate.modelo.Aula1" table="aula">
+    <id name="idAula" type="java.lang.Integer">
+      <column name="idAula"/>
+      <generator class="identity"/>
+    </id>
+    <property name="nombreEdificio" type="string">
+      <column length="20" name="nombreEdificio"/>
+    </property>
+    <property name="naula" type="string">
+      <column length="10" name="nAula"/>
+    </property>
+  </class>
+</hibernate-mapping>

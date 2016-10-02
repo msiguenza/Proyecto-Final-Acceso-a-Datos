@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-reverse-engineering PUBLIC "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-reverse-engineering-3.0.dtd">
+<hibernate-reverse-engineering>
+  <schema-selection match-catalog="facultad"/>
+  <table-filter match-name="matricula"/>
+  <table-filter match-name="alumno"/>
+  <table-filter match-name="asignatura"/>
+  <table-filter match-name="imparte"/>
+  <table-filter match-name="aula"/>
+  <table-filter match-name="profesor"/>
+</hibernate-reverse-engineering>
